@@ -20,3 +20,7 @@ list.insertAt(2, 2);
 list.insertAt(3, 3);
 list.insertAt(4, 4);
 list.printAll();
+
+console.log("===== clear() 호출 =====");
+list.clear();
+list.printAll();

@@ -28,6 +28,11 @@ class LinkedList {
         console.log(text);
     }
 
+    clear() {
+        this.head = null;
+        this.count = 0;
+    }
+
     insertAt(index, data) {
         if (index > this.count || index < 0) {
             throw new Error("범위를 넘어갔습니다.");
