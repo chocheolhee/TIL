@@ -24,3 +24,9 @@ list.printAll();
 console.log("===== clear() 호출 =====");
 list.clear();
 list.printAll();
+
+console.log("===== insertLast() 세 번 호출 =====");
+list.insertLast(0);
+list.insertLast(1);
+list.insertLast(2);
+list.printAll();

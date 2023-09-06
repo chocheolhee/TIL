@@ -54,6 +54,10 @@ class LinkedList {
         }
         this.count++
     }
+
+    insertLast(data) {
+        this.insertAt(this.count, data);
+    }
 }
 
 export { Node, LinkedList };
