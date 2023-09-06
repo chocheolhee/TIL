@@ -84,6 +84,10 @@ class LinkedList {
             return deletedNode;
         }
     }
+
+    deleteLast() {
+        return this.deleteAt(this.count - 1);
+    }
 }
 
 export { Node, LinkedList };

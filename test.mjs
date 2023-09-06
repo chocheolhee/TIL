@@ -36,3 +36,9 @@ list.deleteAt(0);
 list.printAll();
 list.deleteAt(1);
 list.printAll();
+
+console.log("===== deleteLast() 호출 =====");
+list.insertLast(5);
+list.deleteLast();
+list.deleteLast();
+list.printAll();
